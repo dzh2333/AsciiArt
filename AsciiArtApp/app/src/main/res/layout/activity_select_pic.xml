@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    android:clipChildren="false">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/select_pic_rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/select_pic_toolbar">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <com.mark.asciiartapp.ui.widget.AutoToolBar
+        android:id="@+id/select_pic_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false">
+
+    </com.mark.asciiartapp.ui.widget.AutoToolBar>
+
+
+
+
+
+</RelativeLayout>
