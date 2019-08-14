@@ -6,7 +6,6 @@ import java.util.List;
 
 /**
  * 排序帮助类
- * @author 邓兆恒
  */
 public class SortHelper {
 
