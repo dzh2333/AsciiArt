@@ -16,14 +16,14 @@
         android:orientation="horizontal">
         <Button
             android:id="@+id/dialog_picture_info_button"
-            android:text="选择"
+            android:text="@string/select"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="@dimen/dp_40"/>
 
         <Button
             android:id="@+id/dialog_picture_info_dismiss"
-            android:text="取消"
+            android:text="@string/cancel"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="@dimen/dp_40"/>

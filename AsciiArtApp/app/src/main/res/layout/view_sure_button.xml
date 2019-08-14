@@ -13,7 +13,7 @@
             android:id="@+id/view_sure_button"
             android:layout_width="@dimen/dp_80"
             android:layout_height="@dimen/dp_40"
-            android:text="确认"/>
+            android:text="@string/sure"/>
     </LinearLayout>
 
 
